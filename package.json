@@ -1,0 +1,32 @@
+{
+  "name": "dryad",
+  "displayName": "Dryad",
+  "description": "dryad lang support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dryad",
+      "aliases": ["Dryad", "dryad"],
+      "extensions": [".dyd"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dryad",
+      "scopeName": "source.dryad",
+      "path": "./syntaxes/dryad.tmLanguage.json"
+    }],
+    "iconThemes": [
+      {
+          "id": "dryad-icons",
+          "label": "Dryad Icons",
+          "path": "/icons/icon-theme.json"
+      }
+    ]
+  }
+}

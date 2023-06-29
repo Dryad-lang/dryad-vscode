@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+        "_file_dryad": {
+            "iconPath": "dryad.png"
+        }
+    },
+    "fileExtensions": {
+        "dyd": "_file_dryad"
+    },
+    "version": "0.0.1"
+}
